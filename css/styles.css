@@ -1,0 +1,105 @@
+.wikipedia-bg {
+  background-image: url("../img/background.jpg");
+}
+
+.center-header {
+  text-align: center;
+}
+
+.margin-top-twenty-px {
+  margin-top: 20px !important;
+}
+
+.wikipedia-img {
+  display: block;
+  margin: auto;
+  width: 20%;
+  height: 40%;
+}
+
+.search-box-container {
+  margin-left: 32% !important;
+  position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 94%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 250px;
+}
+
+.dropdown-content-div {
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid lightgray;
+}
+
+.dropdown-img {
+  height: 80px;
+}
+
+.dropdown-header-content {
+  font-size: 18px;
+  font-weight: 800;
+  color: black;
+}
+
+.dropdown-description {
+
+}
+
+.show {display:block;}
+
+
+.search-icon {
+  position: absolute;
+  height: 25px;
+  left: 90%;
+  top: 22%;
+}
+
+.modalLink{
+  text-align: center;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial,sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity:0;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+  background-color: white;
+}
+
+.close {
+	background: white;
+	color: black;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	font-weight: bold;
+}
